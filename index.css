@@ -1,0 +1,25 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+/*se encuentran a la misma altura. selectores de hermanos adyacentes*/
+.dropdown-hover + .dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-hover:hover + .dropdown-menu, .dropdown-hover + .dropdown-menu:hover  {
+    display: block;
+}
+
+.card-hv:hover {
+    filter: grayscale(100%);
+}
+
+.second-box{
+    height:190px;
+    overflow: hidden;
+}
+.carousel-inner img {
+    margin: auto;
+}
